@@ -25,11 +25,11 @@ C++ and Blueprint Implementation Breakdown
 Due to time constraints, this prototype was primarily developed using Unreal Engine's Blueprint visual scripting system. The core logic for player movement, health, AI behavior, and level interactions is built entirely within Blueprints.
 
 Blueprints:
-Player Character: All player movement, camera controls, and health system logic are handled in the BP_PlayerCharacter Blueprint.
+Player Character: All player movement, camera controls, and health system logic are handled in the BP_GameplayPlayer Blueprint.
 
-Enemy AI: The Behavior Tree and AI Controller logic for the enemy's patrol, chase, and attack states are managed in Blueprints. This includes the AI's perception system (AIPerceptionComponent) and its ability to reduce the player's health.
+Enemy AI: The Behavior Tree and AI Controller logic for the enemy's patrol, chase, and attack states are managed in Blueprints. This includes the AI's perception system (BT_EnemyAI) and its ability to reduce the player's health.
 
-Game Mode & UI: The BP_GameMode handles the overall game flow, and the user interface (UI) elements for health display were created using Widget Blueprints.
+Game Mode & UI: The BP_GameplayPlayerMode handles the overall game flow, and the user interface (UI) elements for health display were created using Widget Blueprints.
 
 C++:
 No C++ classes were created for this submission. The project relies on the core functionality provided by the base C++ classes of Unreal Engine.
@@ -49,4 +49,5 @@ How to Run the Project
 4.Press "Play" to start the game and experience the prototype.
 
 Thank you for your consideration. I look forward to discussing my project further with the team.
+
 
