@@ -35,9 +35,9 @@ The prototype features a **first-person player** who navigates a small environme
 ## ⚙️ C++ vs Blueprint Breakdown
 
 ### Blueprints
-- **Player Character**: Movement, camera, and health system (`BP_PlayerCharacter`).  
+- **Player Character**: Movement, camera, and health system (`BP_GameplayPlayer`).  
 - **Enemy AI**: Behavior Tree, AI Controller, and Perception (`AIPerceptionComponent`).  
-- **Game Mode & UI**: Game flow handled in `BP_GameMode`, with health UI in Widget Blueprints.  
+- **Game Mode & UI**: Game flow handled in `BP_GameplayPlayerMode`, with health UI in Widget Blueprints.  
 
 ### C++
 - **No custom C++ classes** were created for this submission.  
