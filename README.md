@@ -62,7 +62,3 @@ The following were not completed due to time constraints:
 4. Press **Play** to start the game.  
 
 ---
-
-## 🙏 Acknowledgment
-Thank you for reviewing this project.  
-I look forward to discussing it further with the **WOCI Games team**.
